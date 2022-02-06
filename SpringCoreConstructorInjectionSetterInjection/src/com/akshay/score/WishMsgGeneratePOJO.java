@@ -7,11 +7,7 @@ public class WishMsgGeneratePOJO {
 	private String name;
 	private Date date;
 	
-	public WishMsgGeneratePOJO(String name, Date date) {
-		super();
-		this.name = name;
-		this.date = date;
-	}
+	
 	public String getName() {
 		return name;
 	}
@@ -61,6 +57,10 @@ public class WishMsgGeneratePOJO {
 	public String msgGenerate() {
 		return "Hello "+name+" today is "+date;
 	}
-	
+	public WishMsgGeneratePOJO(String name, Date date) {
+		super();
+		this.name = name;
+		this.date = date;
+	}
 	
 }
