@@ -15,6 +15,6 @@ public class Seller {
 		Context ic = new InitialContext();
 		ic.bind("buyer", buyer);
 		buyer=(Buyer) ic.lookup("buyer");
-		System.out.println("result"+buyer);
+		System.out.println("result"+buyer+"new");
 	}
 }
