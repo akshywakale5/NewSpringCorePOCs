@@ -12,6 +12,7 @@ public class WishMsgTestApp {
 		XmlBeanFactory beanFactory = new XmlBeanFactory(fileSystemResource);
 		WishMsgGeneratePOJO wish = beanFactory.getBean("i", WishMsgGeneratePOJO.class);
 		System.out.println("Result :" + wish.msgGenerate());
+		System.out.println("Result :" + wish.msgGenerate());
 	}
 
 }
